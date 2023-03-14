@@ -17,3 +17,11 @@ git checkout 사람이름 </p>
 git add . </p>
 git commit -m "작업단위 기록" </p>
 git push origin 사람이름 </p>
+
+## TODO
+1. collection (figma - collection), customizaNFT (collectionDetail) 부분 완성
+2. Home 버튼 라우팅 (NFTCollection -> collection.js)
+- collectionDetail은 App.js 사용해서 작업하고 아직 라우팅 안해도 됩니다!
+3. 지갑 연결 - ConenctButton 부분 참고 
+4. 가능한 부분 백엔드 
+5. NFT minting - CandyMachine, Solana Pay 연결 (주원)

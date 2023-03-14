@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View,TouchableOpacity } from 'react-native';
 import { Entypo } from '@expo/vector-icons';
 import { FontAwesome5 } from '@expo/vector-icons'; 
+  
 export default function Header () {
     return (
       <View style={styles.container}>
@@ -24,7 +25,6 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       justifyContent:'space-between',
       padding:30,
-      
       flexDirection:"row",
     }
 });
