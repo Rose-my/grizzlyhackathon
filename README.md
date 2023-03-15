@@ -1,6 +1,8 @@
 # Tump powered by Solana
+A Mobile-focused NFT Reward Service </p>
+2023 Solana Grizzlython
 
-## Git 다운받기
+## For developers
 git clone https://github.com/TumpSolana/Web-App 
 cd Web-App </p>
 code . </p>
@@ -9,7 +11,7 @@ code . </p>
 가장 처음 다운 + git으로 다른 사람 작업 받을 때 </p>
 yarn install 실행 </p>
 
-## 자기 브랜치 생성 후 작업 단위로 Push
+### 자기 브랜치 생성 후 작업 단위로 Push
 가장 처음 자기 branch 생성: git branch 사람이름 </p>
 git checkout 사람이름 </p>
 
@@ -18,7 +20,7 @@ git add . </p>
 git commit -m "작업단위 기록" </p>
 git push origin 사람이름 </p>
 
-## TODO
+### TODO
 1. collection (figma - collection), customizaNFT (collectionDetail) 부분 완성
 2. Home 버튼 라우팅 (NFTCollection -> collection.js)
 - collectionDetail은 App.js 사용해서 작업하고 아직 라우팅 안해도 됩니다!
